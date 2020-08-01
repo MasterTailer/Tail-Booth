@@ -7,13 +7,18 @@
     "lib": "lib"
   },
   "dependencies": {
-    "three": "^0.119.1",
-    "webpack-cli": "^3.3.12",
-    "webpack": "^4.44.1"
+    "three": "^0.119.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "css-loader": "^4.2.0",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
