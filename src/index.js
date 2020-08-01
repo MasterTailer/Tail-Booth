@@ -12,11 +12,11 @@ let renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-let point_light = new THREE.PointLight(0x404040, 5.0); // soft white light
+let point_light = new THREE.PointLight(0x404040, 4.0); // soft white light
 point_light.translateX(10);
 scene.add(point_light);
 
-let point_light_2 = new THREE.PointLight(0x404040, 5.0); // soft white light
+let point_light_2 = new THREE.PointLight(0x404040, 4.0); // soft white light
 point_light_2.translateX(-10);
 scene.add(point_light_2);
 
