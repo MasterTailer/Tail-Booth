@@ -1,8 +1,2 @@
 # macOS system file
 .DS_Store
-
-# webpack output
-bundle.js
-
-# dependencies
-node_modules/
